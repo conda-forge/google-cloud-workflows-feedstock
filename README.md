@@ -123,5 +123,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@parthea](https://github.com/parthea/)
 * [@xylar](https://github.com/xylar/)
 
