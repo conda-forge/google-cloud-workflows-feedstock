@@ -1,5 +1,5 @@
 {% set name = "google-cloud-workflows" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-workflows-{{ version }}.tar.gz
-  sha256: 9339a7758cc65b545375fcea2305e42efac5d8fffbbab7a5682fcb58e133bbe3
-  patches:
-    - 0001-remove-unwanted-packages.patch
+  sha256: ceba4418c87d506998b3608183c3fc26f4d3820e396081e05ff1d6c288ef276c
 
 build:
   number: 0
@@ -22,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - google-api-core-grpc >=1.26.0,<2.0.0dev
     - libcst >=0.2.5
     - packaging >=14.3
     - proto-plus >=1.4.0
