@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-workflows-{{ version }}.tar.gz
   sha256: ceba4418c87d506998b3608183c3fc26f4d3820e396081e05ff1d6c288ef276c
-  patches:
-    - 0001-remove-unwanted-packages.patch
 
 build:
   number: 0
