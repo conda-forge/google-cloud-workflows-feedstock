@@ -1,5 +1,5 @@
 {% set name = "google-cloud-workflows" %}
-{% set version = "1.7.2" %}
+{% set version = "1.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-workflows-{{ version }}.tar.gz
-  sha256: 2f0713cad579c78f605e5e7c25e81bf9c3b9f6f18c2e2caff91ebb0574a56d90
+  sha256: bed493e58d1580f9972c3791ed952b7264e05b8dad4f475bfff73964eae5c44b
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - python >=3.7
     - google-api-core-grpc >=1.32.0,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*
     - proto-plus >=1.22.0,<2.0.0dev
-    - protobuf >=3.19.0,<5.0.0dev
+    - protobuf >=3.20.2,<5.0.0dev
 
 test:
   imports:
