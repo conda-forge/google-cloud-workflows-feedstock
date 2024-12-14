@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
@@ -38,14 +38,14 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-workflows
+  home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-workflows
   summary: Google Cloud Workflows API client library
   license: Apache-2.0
   license_file: LICENSE
   description: |
     Cloud Workflows API: Orchestrate and automateGoogle Cloud and HTTP-based
     API services with serverless workflows.
-  dev_url: https://github.com/googleapis/python-workflows
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-workflows
   doc_url: https://googleapis.dev/python/workflows/latest/index.html
 
 extra:
