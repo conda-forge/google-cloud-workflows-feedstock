@@ -1,5 +1,5 @@
 {% set name = "google-cloud-workflows" %}
-{% set version = "1.18.1" %}
+{% set version = "1.18.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_workflows-{{ version }}.tar.gz
-  sha256: c2bc2bbdb66d596c8f6113aff9fdb01fa17e625a727837d14a1e39654064fbdb
+  sha256: 4bb936419bfe110c9f67a4631be340ffe6bd2014299cc4c4f9321b5e5202d4df
 
 build:
   noarch: python
