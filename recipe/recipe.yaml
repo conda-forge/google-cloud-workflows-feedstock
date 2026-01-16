@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-workflows
-  version: 1.19.0
+  version: "1.20.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_workflows-${{ version }}.tar.gz
-  sha256: 48e0e282ec97f3610f3ef9b7c2f469eed01c02b34836673d735f9692428f3471
+  sha256: 6a2708e0ed66dcbde0b676777ac94648ab052b25539d6cabd128cd25d5b171f4
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
