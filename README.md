@@ -16,7 +16,6 @@ Documentation: https://googleapis.dev/python/workflows/latest/index.html
 Cloud Workflows API: Orchestrate and automateGoogle Cloud and HTTP-based
 API services with serverless workflows.
 
-
 Current build status
 ====================
 
