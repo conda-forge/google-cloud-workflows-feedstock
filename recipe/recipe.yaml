@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-workflows
-  version: "1.21.0"
+  version: "1.22.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_workflows-${{ version }}.tar.gz
-  sha256: 19a33f7f2209487274afff1ccf668360619d216c3e2d78269e54452aebfb7b62
+  sha256: f7eb87308d823f3c0d59c9fd29c8bbcdef8e8b91383218074c831fd927ebe32d
 
 build:
   number: 0
